@@ -1,0 +1,33 @@
+.contenedorPrincipal {
+    display: flex; /* Alinea los contenedores en una fila */
+}
+
+.contenedorImagenes {
+    display: flex;
+    float: left;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+#contenedorCamiseta {
+    display: flex;
+    float: right;
+    width: 750px;
+    height: 750px;
+    margin-right: 100px;
+}
+
+#prueba{
+    margin-left: 250px;
+    font-size: 35px;
+    color: rgb(46, 167, 167);
+    margin-top: 200px;
+}
+
+.girar{
+    transform: scaleX(-1);
+}
+
+
+
+
